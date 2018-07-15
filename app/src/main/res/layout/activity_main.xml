@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MainActivity" />
+    tools:context=".view.MainActivity">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:theme="@style/nav_menu"
+        app:itemTextColor="@color/color_white"
+        app:menu="@menu/menu_nav" />
+</android.support.v4.widget.DrawerLayout>

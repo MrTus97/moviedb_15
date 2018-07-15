@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/item_popular"
+            android:title="@string/popular" />
+        <item
+            android:id="@+id/item_topRate"
+            android:title="@string/top_rate" />
+        <item
+            android:id="@+id/item_upcoming"
+            android:title="@string/upcoming" />
+        <item
+            android:id="@+id/item_favourite"
+            android:title="@string/favorite" />
+    </group>
+</menu>

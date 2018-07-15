@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="nav_menu">
+        <item name="android:background">@color/color_grey</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:color">@color/color_white</item>
+        <item name="android:textSize">@dimen/dp_10</item>
+    </style>
+
 </resources>
